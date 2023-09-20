@@ -10,12 +10,15 @@ body {
 .card {
     width: 90%;
     max-width: 470px;
+    max-height: auto;
+    height: auto;
     background: linear-gradient(135deg, #00feba, #b4548a);
     color: #fff;
     margin: 100px auto 0;
     border-radius: 20px;
     padding: 40px 35px;
     text-align: center;
+    height: auto;
 }
 .search {
     width: 100%;
@@ -54,10 +57,13 @@ body {
 .search button img {
     width: 16px;
 }
+.weather {
+    display: none;
+}
 .weather-icon {
     width: 170px;
     height: auto;
-    margin-top: 30px;
+    margin-top: 20px;
 }
 .weather h1 {
     font-size: 80px;
@@ -98,7 +104,7 @@ body {
     font-weight: 500;
     color: #0ef;
     background-color: #041429;
-    margin-top: 120px;
+    margin-top: 60px;
     margin-bottom: 0;
     padding: 20px;
     border: transparent;
