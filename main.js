@@ -36,6 +36,7 @@ else {
     }
 
     document.querySelector(".weather").style.display = "block";
+    document.querySelector(".error").style.display = "none";
 }
 
     var data = await response.json();
@@ -62,6 +63,7 @@ else {
     }
 
     document.querySelector(".weather").style.display = "block";
+    document.querySelector(".error").style.display = "none";
 }
 
 searchBtn.addEventListener("click", ()=>{
